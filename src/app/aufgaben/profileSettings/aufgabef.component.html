@@ -1,0 +1,44 @@
+<h1>Profile Settings</h1>
+<form>
+  <fieldset>
+    <legend>Login</legend>
+    <label style="margin-right: 4px">Username</label>
+    <input type="text" id="username" name="username" placeholder="Username" />
+    <br />
+    <label style="margin-right: 4px">Password</label>
+    <input type="text" id="password" name="password" placeholder="Password" />
+    <br />
+    <label style="margin-right: 4px">Coffee or Tea?</label>
+    <select>
+      <option>Neither nor</option>
+      <option>Coffee</option>
+      <option>Tea</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>Tell Somthing About You</legend>
+    <textarea placeholder="Leave a comment here"></textarea>
+  </fieldset>
+  <fieldset>
+    <legend>Prefered Chat Layout</legend>
+
+    <input
+      type="radio"
+      id="usernameOnLine"
+      name="chatLayout"
+      value="UsernameOnLine"
+    />
+    <label>Username and message in one line</label>
+    <br />
+    <br />
+    <input
+      type="radio"
+      id="UsernameSeperatedLine"
+      name="chatLayout"
+      id="UsernameSeperatedLine"
+    />
+    <label>Username and message in seperated line</label>
+  </fieldset>
+  <input style="margin-right: 4px" type="submit" value="Cancel" />
+  <input type="submit" value="Save" />
+</form>
