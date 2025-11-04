@@ -1,27 +1,16 @@
-.container {
+img {
+  margin: 20px;
+  border-radius: 50%;
+}
+
+div {
+  font-family: Arial;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.outer {
-  padding: 0;
-  margin: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: #f2f0f0;
-}
-
-img {
-  border-radius: 50%;
-}
-
-.page1 {
-  font-family: Arial;
-}
-
 fieldset {
-  display: flex;
   background-color: white;
   padding: 15px;
   width: 500px;
@@ -29,10 +18,7 @@ fieldset {
   border-color: #d1d0d0;
 }
 
-.fieldset-left.menu {
-  grid-area: menu;
-}
-
-.fieldset-right.content {
-  grid-area: content;
+input[type="submit"] {
+  display: flex;
+  flex-direction: column;
 }

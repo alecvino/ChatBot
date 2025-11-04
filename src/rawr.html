@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontaktformular</title>
+  </head>
+  <body>
+    <h1>Kontaktformular</h1>
+
+    <form action="send.html" method="get">
+      <p>
+        <label for="name">Name:</label>
+        <input id="name" name="name" type="text" required />
+      </p>
+
+      <p>
+        <label for="mail">E-Mail:</label>
+        <input id="mail" name="mail" type="email" required />
+      </p>
+      <p>
+        <label for="subject">Betreff:</label>
+        <input id="subject" name="subject" type="text" required />
+      </p>
+
+      <p>
+        <label for="text">Text:</label> <br />
+        <textarea id="text" name="text" rows="3" cols="100" required>
+        </textarea>
+      </p>
+
+      <p>
+        <label for="copy"></label>
+        <input id="copy" name="copy" type="checkbox" value="yes" />Möchten Sie
+        eine Kopie der E-Mail erhalten? (ja/nein)
+      </p>
+
+      <p>
+        <input type="submit" value="Absenden" />
+      </p>
+    </form>
+  </body>
+</html>
